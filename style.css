@@ -1,0 +1,63 @@
+@page {
+    size: A4 portrait;
+    margin: 5;
+}
+
+body {
+    margin: 5mm;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e8e8e8;
+}
+
+th[colspan="4"] {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+#calendario tr {
+    height: 20px;
+}
+
+.th1 {
+    width: 10px;
+}
+
+.th2 {
+    width: 100px;
+}
+
+.celula-azul {
+    background-color: rgb(187, 187, 202);
+    color: white;
+}
+
+.feriado {
+    background-color: lightgray;
+}
+

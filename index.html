@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ponto baltazar</title>
+</head>
+<body>
+  
+    <form id="form" action="index.html" >
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" required>
+        <label for="cargo-funcao">CIEE ou Voluntário:</label>
+        <select id="cargo-funcao" required>
+          <option value=""></option>
+          <option value="estagio">CIEE</option>
+          <option value="voluntario">Voluntário(a)</option>
+        </select>
+        <label for="mes-ano">Qual mês do ponto você deseja:</label>
+        <select id="mes-ano" required>
+          <option value=" "></option>
+          <option value="2023-01">Janeiro 2023</option>
+          <option value="2023-02">Fevereiro 2023</option>
+          <option value="2023-03">Março 2023</option>
+          <option value="2023-04">ABRIL 2023</option>
+          <option value="2023-05">MAIO 2023</option>
+          <option value="2023-06">JUNHO 2023</option>
+          <option value="2023-07"> JULHO 2023</option>
+          <option value="2023-08">AGOSTO 2023</option>
+          <option value="2023-09">SETEMBRO 2023</option>
+          <option value="2023-10">OUTUBRO 2023</option>
+          <option value="2023-11">NOVEMBRO 2023</option>
+          <option value="2023-12">DEZEMBRO 2023</option>
+        </select>
+        <label for="opcao">A PREFEITURA DEU ALGUM PONTO FACULTATIVO: </label>
+    <input type="radio" id="opcao_sim" name="opcao" value="sim" onclick="mostrarOcultarCheckbox(true)"> SIM
+    <input type="radio" id="opcao_nao" name="opcao" value="nao" onclick="mostrarOcultarCheckbox(false)"> NÃO
+    
+    <br><br>
+    
+    <div id="checkbox_container" style="display: none;">
+        <label>QUAL OU QUAIS FORAM OS DIAS </label>
+    
+        <label for="feriado1">Dia 1</label>
+        <input type="checkbox" id="feriado1" name="feriados" value="1">
+    
+        <label for="feriado2">Dia 2</label>
+        <input type="checkbox" id="feriado2" name="feriados" value="2">
+    
+        <label for="feriado3">Dia 3</label>
+        <input type="checkbox" id="feriado3" name="feriados" value="3">
+    
+        <label for="feriado4">Dia 4</label>
+        <input type="checkbox" id="feriado4" name="feriados" value="4">
+    
+        <label for="feriado5">Dia 5</label>
+        <input type="checkbox" id="feriado5" name="feriados" value="5">
+    
+        <label for="feriado6">Dia 6</label>
+        <input type="checkbox" id="feriado6" name="feriados" value="6">
+    
+        <label for="feriado7">Dia 7</label>
+        <input type="checkbox" id="feriado7" name="feriados" value="7">
+    
+        <label for="feriado8">Dia 8</label>
+        <input type="checkbox" id="feriado8" name="feriados" value="8">
+    
+        <label for="feriado9">Dia 9</label>
+        <input type="checkbox" id="feriado9" name="feriados" value="9">
+    
+        <label for="feriado10">Dia 10</label>
+        <input type="checkbox" id="feriado10" name="feriados" value="10">
+    
+        <label for="feriado11">Dia 11</label>
+        <input type="checkbox" id="feriado11" name="feriados" value="11">
+    
+        <label for="feriado12">Dia 12</label>
+        <input type="checkbox" id="feriado12" name="feriados" value="12">
+    
+        <label for="feriado13">Dia 13</label>
+        <input type="checkbox" id="feriado13" name="feriados" value="13">
+    
+        <label for="feriado14">Dia 14</label>
+        <input type="checkbox" id="feriado14" name="feriados" value="14">
+    
+        <label for="feriado15">Dia 15</label>
+        <input type="checkbox" id="feriado15" name="feriados" value="15">
+    
+        <label for="feriado16">Dia 16</label>
+        <input type="checkbox" id="feriado16" name="feriados" value="16">
+    
+        <label for="feriado17">Dia 17</label>
+        <input type="checkbox" id="feriado17" name="feriados" value="17">
+    
+        <label for="feriado18">Dia 18</label>
+        <input type="checkbox" id="feriado18" name="feriados" value="18">
+    
+        <label for="feriado19">Dia 19</label>
+        <input type="checkbox" id="feriado19" name="fer
+    
+        <label for="feriado20">Dia 20</label>
+        <input type="checkbox" id="feriado20" name="feriados" value="20">
+    
+        <label for="feriado21">Dia 21</label>
+        <input type="checkbox" id="feriado21" name="feriados" value="21">
+    
+        <label for="feriado22">Dia 22</label>
+        <input type="checkbox" id="feriado22" name="feriados" value="22">
+    
+        <label for="feriado23">Dia 23</label>
+        <input type="checkbox" id="feriado23" name="feriados" value="23">
+    
+        <label for="feriado24">Dia 24</label>
+        <input type="checkbox" id="feriado24" name="feriados" value="24">
+    
+        <label for="feriado25">Dia 25</label>
+        <input type="checkbox" id="feriado25" name="feriados" value="25">
+    
+        <label for="feriado26">Dia 26</label>
+        <input type="checkbox" id="feriado26" name="feriados" value="26">
+    
+        <label for="feriado27">Dia 27</label>
+        <input type="checkbox" id="feriado27" name="feriados" value="27">
+    
+        <label for="feriado28">Dia 28</label>
+        <input type="checkbox" id="feriado28" name="feriados" value="28">
+    
+        <label for="feriado29">Dia 29</label>
+        <input type="checkbox" id="feriado29" name="feriados" value="29">
+    
+        <label for="feriado30">Dia 30</label>
+        <input type="checkbox" id="feriado30" name="feriados" value="30">
+    
+        <label for="feriado31">Dia 31</label>
+        <input type="checkbox" id="feriado31" name="feriados" value="31">
+    </div>
+    
+    
+    <script>
+        function mostrarOcultarCheckbox(ocultar) {
+            var checkboxContainer = document.getElementById("checkbox_container");
+    
+            if (ocultar) {
+                checkboxContainer.style.display = "block";
+            } else {
+                checkboxContainer.style.display = "none";
+            }
+        }
+    </script>
+    <!-- Adicione mais opções de checkbox para cada dia de feriado desejado -->
+    
+        <input type="submit" value="Gerar Ponto">
+      </form>
+    
+
+
+  <table>
+    <tr>
+      <th colspan="4">Setor: COLÉGIO MUNICIPAL BALTAZAR MORENO</th>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: left; width:  350px;">Nome: <span id="nome-completo"></span></td>
+      <td style="width: 200px;">Matrícula: <span id="matricula-label"></span></td>
+      <td style="width: 225px;">Cargo/Função: <span id="cargo-funcao-label"></span></td>
+    </tr>
+    <tr>
+      <th colspan="4" id="movimento-mensal">MOVIMENTO MENSAL – </th>
+    </tr>
+  </table>
+
+  <table id="calendario">
+    <tr>
+      <th class="th1" style="width: 10px;">Dia</th>
+      
+      <th class="th2" style="width: 20px;">Obs.</th>
+      <th class="th3">Entrada / Assinatura</th>
+      <th class="th3">Saída / Assinatura</th>
+    </tr>
+    <tr>
+        
+       
+      </tr>
+      <!-- Restante dos dias do mês -->
+
+  </table>
+
+  
+  <script>
+    // Função para obter os parâmetros da URL
+    function getUrlParams() {
+      var params = {};
+      var parts = window.location.search.substr(1).split('&');
+      for (var i = 0; i < parts.length; i++) {
+        var pair = parts[i].split('=');
+        params[pair[0]] = decodeURIComponent(pair[1]);
+      }
+      return params;
+    }
+
+    // Função para preencher os dados no index.html
+    function fillData() {
+      var params = getUrlParams();
+      var nomeCompleto = params['nome'];
+      var cargoFuncao = params['cargo-funcao'];
+      var mesAno = params['mes-ano'];
+
+      document.getElementById('nome-completo').textContent = nomeCompleto;
+      document.getElementById('cargo-funcao-label').textContent = cargoFuncao;
+      document.getElementById('movimento-mensal').textContent += mesAno;
+      // Preencha os demais elementos desejados com os valores do formulário
+    }
+
+    // Chame a função para preencher os dados ao carregar a página
+    fillData();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
